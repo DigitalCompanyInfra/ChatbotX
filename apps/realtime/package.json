@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "check-types": "tsc --noEmit",
-    "dev": "dotenv -e ../../.env -- partykit dev",
+    "dev": "node init && dotenv -e ../../.env -- partykit dev",
     "https": "dotenv -e ../../.env -- partykit dev",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest"
